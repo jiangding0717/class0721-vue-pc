@@ -293,7 +293,7 @@ export default {
       // 相等点击的就是第二次：改变图标
       if (orderNum === order) {
         // 看order是1改综合排序
-        // 看order是1改价格排序
+        // 看order是2改价格排序
         if (order === "1") {
           this.isAllDown = !this.isAllDown;
         } else {
